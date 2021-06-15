@@ -1,0 +1,18 @@
+@charset "UTF-8"
+
+* {
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header-back {
+  background-color: black;
+  height: 500px;
+}
+
+ h2 {
+  color: rgb(129, 117, 117);
+  display: inline-block;
+  margin: 20px 20px;
+}
