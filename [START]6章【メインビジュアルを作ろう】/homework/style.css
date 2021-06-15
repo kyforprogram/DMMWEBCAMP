@@ -1,0 +1,32 @@
+header {
+  width: 1200px;
+  height: 800px;
+  margin: auto auto;
+  text-align: center;
+}
+
+.box1 {
+  background-image: url(../homework/img/box1.jpg);
+  height: 25%;
+  background-size: cover;
+  background-position: center;
+}
+.box2 {
+  background-image: url(../homework/img/box2.jpg);
+  height: 25%;
+  background-size: cover;
+  background-position: center;
+}
+
+.box3 {
+  background-image: url(../homework/img/box3.jpg);
+  height: 25%;
+  background-size: cover;
+  background-position: center;
+}
+.box4 {
+  background-image: url(../homework/img/box4.jpg);
+  height: 25%;
+  background-size: cover;
+  background-position: center;
+}
