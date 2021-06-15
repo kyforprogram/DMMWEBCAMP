@@ -1,18 +1,43 @@
-@charset "UTF-8"
-
 * {
-margin: 0 auto;
-padding: 0;
-box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+header {
+  height: 400px;
+}
 .header-back {
-  background-color: black;
-  height: 500px;
+  background-image: url(../homewrok/img/mv.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: bottom;
 }
 
- h2 {
+h2 {
   color: rgb(129, 117, 117);
   display: inline-block;
   margin: 20px 20px;
+}
+
+main {
+  margin: 50px auto;
+  width: 840px;
+  /*background-color: black;*/
+}
+p {
+  color: rgb(0, 0, 0);
+  display: block;
+}
+a {
+  display: block;
+}
+.main-item {
+  border-bottom: 1px solid darkgrey;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+footer {
+  background-color: blue;
+  height: 100px;
 }
