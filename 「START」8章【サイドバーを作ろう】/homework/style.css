@@ -38,3 +38,7 @@ main {
 .box:nth-child(3n) {
   margin-right: 0;
 }
+
+.box:nth-child(1), :nth-child(5), :nth-child(9) {
+  background-color: orange;
+}
