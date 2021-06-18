@@ -5,9 +5,9 @@
 }
 
 header {
-width: 100%;
-height: 50px;
-background-color: #ff9a4b;
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
 }
 
 main {
@@ -22,8 +22,8 @@ main {
 .number {
   background-color: orange;
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   padding: 3px;
   color: #fff;
 }
@@ -57,13 +57,40 @@ main {
 }
 
 .section-content h3 {
-  padding: 15px 0 5px 0
+  padding: 15px 0 5px 0;
 }
-.main-content:nth-child(3){
+.main-content:nth-child(3) {
   margin-right: 0px;
 }
 footer {
-width: 100%;
-height: 50px;
-background-color: #aaa;
+  width: 100%;
+  height: 50px;
+  background-color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 50px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .main-content {
+    margin-bottom: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-content:nth-child(3) {
+    margin-right: auto;
+  }
+
+  footer {
+    height: 50px;
+    width: 100%;
+  }
 }
